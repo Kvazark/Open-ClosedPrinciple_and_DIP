@@ -4,9 +4,10 @@ public class Program
 {
     private static void Main(string[] args)
     {
+        Chef chef = new Chef();
         CookingPilaf pilaf = new CookingPilaf();
-        pilaf.PrepareADish();
+        chef.Cooking(pilaf);
         CookingLasagna lasanga = new CookingLasagna();
-        lasanga.PrepareADish();
+        chef.Cooking(lasanga);
     }
 }

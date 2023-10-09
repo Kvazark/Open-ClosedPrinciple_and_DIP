@@ -1,6 +1,6 @@
 ﻿namespace TheOpenClosedPrinciple_lab;
 
-public class CookingLasagna:IChef
+public class CookingLasagna:ICooking
 {
     public List<string> products { get; set; }
 

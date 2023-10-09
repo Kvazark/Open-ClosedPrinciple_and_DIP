@@ -2,9 +2,11 @@
 
 public class Chef
 {
+    public string Name { get; set; }
     public List<string> products1 { get; set; }
     public List<string> products2 { get; set; }
     
+    public void GoOutToTheGuests(){}
     public void PrepareADish1()
     {
         Console.WriteLine("Приготовление блюда 1...\nБлюдо 1 готово.");
@@ -13,4 +15,5 @@ public class Chef
     {
         Console.WriteLine("Приготовление блюда 2...\nБлюдо 2 готово.");
     }
+   
 }

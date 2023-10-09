@@ -1,6 +1,6 @@
 ﻿namespace TheOpenClosedPrinciple_lab;
 
-public interface IChef
+public interface ICooking 
 {
     public void PrepareADish();
 }

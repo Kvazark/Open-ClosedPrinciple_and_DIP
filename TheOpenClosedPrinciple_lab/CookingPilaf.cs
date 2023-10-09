@@ -1,6 +1,6 @@
 ﻿namespace TheOpenClosedPrinciple_lab;
 
-public class CookingPilaf:IChef
+public class CookingPilaf:ICooking
 {
     public List<string> products { get; set; }
 
