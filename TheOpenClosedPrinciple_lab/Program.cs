@@ -4,10 +4,9 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        EncryptText encryptText = new EncryptText();
-        RotatingGrid cipher1 = new RotatingGrid{text="test"};
-        encryptText.Encrypt(cipher1);
-        RoutePermutation cipher2 = new RoutePermutation{text="test2"};
-        encryptText.Encrypt(cipher2);
+        CookingPilaf pilaf = new CookingPilaf();
+        pilaf.PrepareADish();
+        CookingLasagna lasanga = new CookingLasagna();
+        lasanga.PrepareADish();
     }
 }

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheOpenClosedPrinciple_lab", "TheOpenClosedPrinciple_lab\TheOpenClosedPrinciple_lab.csproj", "{3AA66FE0-B0A0-4A6B-93D9-2E677F84DBDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeforeTheOpenClosedPrinciple", "BeforeTheOpenClosedPrinciple\BeforeTheOpenClosedPrinciple.csproj", "{5934CC35-7760-4331-9220-FC0AFD96B340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{3AA66FE0-B0A0-4A6B-93D9-2E677F84DBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AA66FE0-B0A0-4A6B-93D9-2E677F84DBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AA66FE0-B0A0-4A6B-93D9-2E677F84DBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5934CC35-7760-4331-9220-FC0AFD96B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5934CC35-7760-4331-9220-FC0AFD96B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5934CC35-7760-4331-9220-FC0AFD96B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5934CC35-7760-4331-9220-FC0AFD96B340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
